@@ -1,0 +1,6 @@
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/exception/UserNotFoundException.java
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/model/User.java
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/exception/BusinessException.java
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/feature/impl/FindUserByIdImpl.java
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/model/UsersRepository.java
+/home/diego/Development/projects/microservices-reference-architecture/domain/users/src/main/java/com/example/feature/FindUserById.java

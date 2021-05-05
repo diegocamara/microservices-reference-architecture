@@ -1,0 +1,14 @@
+server:
+  port: ${SERVER_PORT:8080}
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/auth/realms/application
+
+services:
+  users-uri: ${USERS_SERVICE_URL:http://localhost:8082}
+
+logging.level.org.springframework.security: DEBUG
+logging.level.org.springframework.web: DEBUG

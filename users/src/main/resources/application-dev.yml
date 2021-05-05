@@ -1,0 +1,16 @@
+server:
+  port: ${SERVER_PORT:8082}
+spring:
+  data:
+    mongodb:
+      host: ${DATABASE_HOST:localhost}
+      port: ${DATABASE_PORT:27017}
+      database: ${DATABASE_NAME:usersdb}
+keycloak:
+  server-url: ${KEYCLOAK_SERVER_URL:http://localhost:8081/auth}
+  realm: ${KEYCLOAK_REALM:application}
+  client-id: ${KEYCLOAK_CLIENT_ID:users-service}
+  client-secret: ${KEYCLOAK_CLIENT_SECRET:f9d4c760-7d9d-4ebe-9f27-dc051a53ee11}
+collections:
+  users: ${USERS_COLLECTION_NAME:users}
+
