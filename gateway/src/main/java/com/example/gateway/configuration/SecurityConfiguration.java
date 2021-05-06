@@ -1,4 +1,4 @@
-package com.example.gateway;
+package com.example.gateway.configuration;
 
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,5 +1,6 @@
-package com.example.gateway;
+package com.example.gateway.configuration;
 
+import com.example.gateway.configuration.properties.ServicesProperties;
 import lombok.AllArgsConstructor;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;

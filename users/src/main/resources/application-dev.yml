@@ -10,7 +10,7 @@ keycloak:
   server-url: ${KEYCLOAK_SERVER_URL:http://localhost:8081/auth}
   realm: ${KEYCLOAK_REALM:application}
   client-id: ${KEYCLOAK_CLIENT_ID:users-service}
-  client-secret: ${KEYCLOAK_CLIENT_SECRET:f9d4c760-7d9d-4ebe-9f27-dc051a53ee11}
+  client-secret: ${KEYCLOAK_CLIENT_SECRET:91c3b95d-b969-4ebf-b15b-36aa694de895}
 collections:
   users: ${USERS_COLLECTION_NAME:users}
 
